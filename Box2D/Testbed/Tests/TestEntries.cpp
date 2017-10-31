@@ -27,6 +27,7 @@
 #include "BulletTest.h"
 #include "Cantilever.h"
 #include "Car.h"
+#include "CarTopDown.h"
 #include "ContinuousTest.h"
 #include "Chain.h"
 #include "CharacterCollision.h"
@@ -70,9 +71,12 @@
 #include "VaryingRestitution.h"
 #include "VerticalStack.h"
 #include "Web.h"
+#include "Robot.h"
 
 TestEntry g_testEntries[] =
 {
+	{ "Robot", Robot::Create},
+	{ "Car Top Down Test", CarTopDown::Create },
 	{"Character Collision", CharacterCollision::Create},
 	{"Tiles", Tiles::Create},
 	{"Heavy on Light", HeavyOnLight::Create},

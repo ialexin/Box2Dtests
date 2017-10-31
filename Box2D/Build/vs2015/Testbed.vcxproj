@@ -216,6 +216,7 @@
     <ClInclude Include="..\..\Testbed\Tests\BulletTest.h" />
     <ClInclude Include="..\..\Testbed\Tests\Cantilever.h" />
     <ClInclude Include="..\..\Testbed\Tests\Car.h" />
+    <ClInclude Include="..\..\Testbed\Tests\CarTopDown.h" />
     <ClInclude Include="..\..\Testbed\Tests\Chain.h" />
     <ClInclude Include="..\..\Testbed\Tests\CharacterCollision.h" />
     <ClInclude Include="..\..\Testbed\Tests\CollisionFiltering.h" />
@@ -245,6 +246,7 @@
     <ClInclude Include="..\..\Testbed\Tests\Pyramid.h" />
     <ClInclude Include="..\..\Testbed\Tests\RayCast.h" />
     <ClInclude Include="..\..\Testbed\Tests\Revolute.h" />
+    <ClInclude Include="..\..\Testbed\Tests\Robot.h" />
     <ClInclude Include="..\..\Testbed\Tests\RopeJoint.h" />
     <ClInclude Include="..\..\Testbed\Tests\SensorTest.h" />
     <ClInclude Include="..\..\Testbed\Tests\ShapeEditing.h" />
